@@ -108,8 +108,6 @@ while ret:
         out.write(frame)
         frame = cv2.resize(frame, (1280, 720))
 
-        # cv2.imshow('frame', frame)
-        # cv2.waitKey(0)
-
+print("Video is created!")
 out.release()
 cap.release()
